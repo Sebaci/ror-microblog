@@ -2,22 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e24f3634-6111-4c08-81f5-62858589c928" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/posts/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/posts/_form.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/post.rb" afterPath="$PROJECT_DIR$/app/models/post.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/posts/show.html.erb" afterPath="$PROJECT_DIR$/app/views/posts/show.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Microblog.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/database.yml" changelist="e24f3634-6111-4c08-81f5-62858589c928" time="1382201438778" ignored="false" />
     <file path="/Dummy.txt" changelist="e24f3634-6111-4c08-81f5-62858589c928" time="1382276295971" ignored="false" />
-    <file path="/post.rb" changelist="e24f3634-6111-4c08-81f5-62858589c928" time="1382278926857" ignored="false" />
-    <file path="/category.rb" changelist="e24f3634-6111-4c08-81f5-62858589c928" time="1382277134496" ignored="false" />
+    <file path="/post.rb" changelist="e24f3634-6111-4c08-81f5-62858589c928" time="1382279513371" ignored="false" />
+    <file path="/category.rb" changelist="e24f3634-6111-4c08-81f5-62858589c928" time="1382279853838" ignored="false" />
     <file path="/comment.rb" changelist="e24f3634-6111-4c08-81f5-62858589c928" time="1382276346280" ignored="false" />
     <file path="/routes.rb" changelist="e24f3634-6111-4c08-81f5-62858589c928" time="1382211031562" ignored="false" />
     <file path="/posts_controller.rb" changelist="e24f3634-6111-4c08-81f5-62858589c928" time="1382216719498" ignored="false" />
     <file path="/application.html.erb" changelist="e24f3634-6111-4c08-81f5-62858589c928" time="1382213864607" ignored="false" />
     <file path="/application_controller.rb" changelist="e24f3634-6111-4c08-81f5-62858589c928" time="1382204012039" ignored="false" />
     <file path="/application.css" changelist="e24f3634-6111-4c08-81f5-62858589c928" time="1382205868616" ignored="false" />
-    <file path="/Ruby Console" changelist="e24f3634-6111-4c08-81f5-62858589c928" time="1382223695460" ignored="false" />
+    <file path="/Ruby Console" changelist="e24f3634-6111-4c08-81f5-62858589c928" time="1382279970237" ignored="false" />
     <file path="/index.html.erb" changelist="e24f3634-6111-4c08-81f5-62858589c928" time="1382213598466" ignored="false" />
     <file path="$PROJECT_DIR$/log/development.log" changelist="e24f3634-6111-4c08-81f5-62858589c928" time="1382206066753" ignored="false" />
     <file path="/application.scss" changelist="e24f3634-6111-4c08-81f5-62858589c928" time="1382206099489" ignored="false" />
@@ -53,6 +54,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/posts/index.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="33" selection-start="58" selection-end="58" vertical-scroll-proportion="-0.625">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_posts.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/posts/_posts.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="43" selection-start="276" selection-end="276" vertical-scroll-proportion="-3.125">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/comments/_form.html.erb">
           <provider selected="true" editor-type-id="text-editor">
@@ -101,7 +120,7 @@
       <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/posts/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="20" selection-start="180" selection-end="180" vertical-scroll-proportion="-4.375">
+            <state line="16" column="54" selection-start="489" selection-end="489" vertical-scroll-proportion="-10.0">
               <folding />
             </state>
           </provider>
@@ -110,7 +129,7 @@
       <file leaf-file-name="category.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/category.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="29" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0">
+            <state line="3" column="24" selection-start="87" selection-end="87" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -119,7 +138,7 @@
       <file leaf-file-name="post.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/post.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="62" selection-start="136" selection-end="136" vertical-scroll-proportion="0.2506964">
+            <state line="4" column="54" selection-start="152" selection-end="152" vertical-scroll-proportion="0.16713092">
               <folding />
             </state>
           </provider>
@@ -159,10 +178,10 @@
         <option value="$PROJECT_DIR$/app/views/categories/show.html.erb" />
         <option value="$PROJECT_DIR$/app/models/comment.rb" />
         <option value="$PROJECT_DIR$/app/controllers/comments_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/posts/show.html.erb" />
-        <option value="$PROJECT_DIR$/app/models/category.rb" />
         <option value="$PROJECT_DIR$/app/views/posts/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/models/post.rb" />
+        <option value="$PROJECT_DIR$/app/models/category.rb" />
+        <option value="$PROJECT_DIR$/app/views/posts/show.html.erb" />
       </list>
     </option>
   </component>
@@ -450,7 +469,7 @@
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
   </component>
-  <component name="RunManager" selected="Rails.Development: Microblog">
+  <component name="RunManager" selected="IRB console.Rails console: Microblog">
     <configuration default="false" name="db:migrate" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
       <module name="Microblog" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -550,7 +569,7 @@
       </EXTENSION>
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
       <IRB_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/bin/rails" />
-      <IRB_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="console development" />
+      <IRB_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="console" />
       <IRB_RUN_CONFIG NAME="IS_RAILS_CONSOLE" VALUE="true" />
       <RunnerSettings RunnerId="RubyRunner" />
       <ConfigurationWrapper RunnerId="RubyRunner" />
@@ -765,22 +784,22 @@
       <method />
     </configuration>
     <list size="8">
-      <item index="0" class="java.lang.String" itemvalue="Rake.db:migrate" />
-      <item index="1" class="java.lang.String" itemvalue="Rake.assets:precompile" />
-      <item index="2" class="java.lang.String" itemvalue="Rake.routes" />
-      <item index="3" class="java.lang.String" itemvalue="IRB console.Rails console: Microblog" />
-      <item index="4" class="java.lang.String" itemvalue="Rake.test" />
-      <item index="5" class="java.lang.String" itemvalue="Rake.spec" />
-      <item index="6" class="java.lang.String" itemvalue="Rails.Production: Microblog" />
-      <item index="7" class="java.lang.String" itemvalue="Rails.Development: Microblog" />
+      <item index="0" class="java.lang.String" itemvalue="Rake.test" />
+      <item index="1" class="java.lang.String" itemvalue="Rake.spec" />
+      <item index="2" class="java.lang.String" itemvalue="Rails.Production: Microblog" />
+      <item index="3" class="java.lang.String" itemvalue="Rails.Development: Microblog" />
+      <item index="4" class="java.lang.String" itemvalue="Rake.db:migrate" />
+      <item index="5" class="java.lang.String" itemvalue="Rake.assets:precompile" />
+      <item index="6" class="java.lang.String" itemvalue="Rake.routes" />
+      <item index="7" class="java.lang.String" itemvalue="IRB console.Rails console: Microblog" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="IRB console.Rails console: Microblog" />
-        <item index="1" class="java.lang.String" itemvalue="Rake.routes" />
-        <item index="2" class="java.lang.String" itemvalue="Rake.assets:precompile" />
-        <item index="3" class="java.lang.String" itemvalue="IRB console.Rails console: Microblog" />
-        <item index="4" class="java.lang.String" itemvalue="Rake.db:migrate" />
+        <item index="1" class="java.lang.String" itemvalue="IRB console.Rails console: Microblog" />
+        <item index="2" class="java.lang.String" itemvalue="Rake.routes" />
+        <item index="3" class="java.lang.String" itemvalue="Rake.assets:precompile" />
+        <item index="4" class="java.lang.String" itemvalue="IRB console.Rails console: Microblog" />
       </list>
     </recent_temporary>
   </component>
@@ -956,20 +975,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/posts/_posts.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="34" selection-start="361" selection-end="361" vertical-scroll-proportion="0.2932961">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/posts/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="35" selection-start="58" selection-end="58" vertical-scroll-proportion="0.041899443">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/comments/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="22" selection-start="344" selection-end="344" vertical-scroll-proportion="-1.1666666">
@@ -980,20 +985,6 @@
     <entry file="file://$PROJECT_DIR$/app/controllers/posts_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="20" selection-start="363" selection-end="363" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/posts/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="20" selection-start="180" selection-end="180" vertical-scroll-proportion="-4.375">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/category.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="29" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1019,9 +1010,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/category.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="24" selection-start="87" selection-end="87" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/posts/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="33" selection-start="58" selection-end="58" vertical-scroll-proportion="-0.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/posts/_posts.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="43" selection-start="276" selection-end="276" vertical-scroll-proportion="-3.125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/posts/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="54" selection-start="489" selection-end="489" vertical-scroll-proportion="-10.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/post.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="62" selection-start="136" selection-end="136" vertical-scroll-proportion="0.2506964">
+        <state line="4" column="54" selection-start="152" selection-end="152" vertical-scroll-proportion="0.16713092">
           <folding />
         </state>
       </provider>
