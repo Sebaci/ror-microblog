@@ -16,7 +16,10 @@
   <% @all_categories.each do |category| %>
     <%= link_to category.name, category_path(category) %><br />
   <% end %>
+  <br />
 
+  <%= link_to 'Wszystkie posty', root_path %><br /><br />
+  <%= link_to 'Add category', new_category_path %>
 </div>
 
 <div id="main_content">
