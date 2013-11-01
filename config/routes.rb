@@ -11,7 +11,7 @@ Microblog::Application.routes.draw do
   end
 
   resources :posts, only: [:index, :show] do
-    resources :comments, only: [:show]
+    resources :comments, only: [:show, :create]
   end
 
   resources :categories, only: [:index, :show]

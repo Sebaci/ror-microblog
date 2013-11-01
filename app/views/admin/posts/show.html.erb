@@ -10,10 +10,11 @@
 
 <p id="notice"><%= notice %></p>
 
-<%= render 'comments/form' %>
+<%= render 'admin/comments/form' %>
 
 <!--using range to make sure new empty comment is not displayed-->
 <% @comments[0..-2].each do |comment| %>
     <%= "#{comment.nick} napisal:" %><br />
-    <%= comment.content %><br /><br />
+    <%= comment.content %><br />
+    <%= link_to 'Delete', admin_post_comment_path(@post, comment), method: :delete, confirm: 'Are you sure?' %><br /><br />
 <% end %>

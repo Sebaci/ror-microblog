@@ -42,9 +42,10 @@ class Admin::CommentsController < AdminController
   # PATCH/PUT /comments/1
   # PATCH/PUT /comments/1.json
   def update
+    @post = Post.find(params[:post_id])
     respond_to do |format|
       if @comment.update(comment_params)
-        format.html { redirect_to admin_comment_path(@comment), notice: 'Comment was successfully updated.' }
+        format.html { redirect_to admin_post_comment_path(@post, @comment), notice: 'Comment was successfully updated.' }
         format.json { head :no_content }
       else
         format.html { render action: 'edit' }
@@ -56,9 +57,10 @@ class Admin::CommentsController < AdminController
   # DELETE /comments/1
   # DELETE /comments/1.json
   def destroy
+    @post = @comment.post
     @comment.destroy
     respond_to do |format|
-      format.html { redirect_to admin_comments_url }
+      format.html { redirect_to admin_post_url(@post) }
       format.json { head :no_content }
     end
   end
