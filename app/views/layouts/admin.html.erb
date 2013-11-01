@@ -12,6 +12,7 @@
 </div>
 
 <div id="categories">
+  <%= current_admin.email %>
   <%= link_to 'Logout', destroy_admin_session_path, method: :delete, class: 'admin'  %>
   <h2>Categories</h2>
   <% @all_categories.each do |category| %>

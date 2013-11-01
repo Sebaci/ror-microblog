@@ -47,3 +47,12 @@ div.post{
 h2{
   margin-bottom: 1px;
 }
+
+
+.admin{
+  font-weight: bold;
+  &:link, &:hover, &:active, &:visited{
+    color: #fff184;
+    background: #666666;
+  }
+}
