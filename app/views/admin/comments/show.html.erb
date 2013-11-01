@@ -15,4 +15,5 @@
   <%= @comment.post_id %>
 </p>
 
-<%= link_to 'Back', comments_path %>
+<%= link_to 'Edit', edit_admin_comment_path(@comment) %> |
+<%= link_to 'Back', admin_comments_path %>

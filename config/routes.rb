@@ -1,9 +1,20 @@
 Microblog::Application.routes.draw do
-  resources :posts do
-    resources :comments
+  devise_for :admins
+
+  namespace :admin do
+    resources :posts do
+      resources :comments
+    end
+    resources :categories
+
+    root :to => 'categories#index'
   end
 
-  resources :categories
+  resources :posts, only: [:index, :show] do
+    resources :comments, only: [:show]
+  end
+
+  resources :categories, only: [:index, :show]
 
   root :to => 'posts#index'
 
