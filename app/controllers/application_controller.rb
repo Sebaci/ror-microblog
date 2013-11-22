@@ -7,5 +7,6 @@ class ApplicationController < ActionController::Base
 
   def load_categories
     @all_categories = Category.all.order :name
+    @all_categories
   end
 end
