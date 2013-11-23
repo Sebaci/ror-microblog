@@ -26,13 +26,15 @@ class Admin::PostsController < AdminController
   # POST /posts
   # POST /posts.json
   def create
-    @post = Post.new(post_params)
+    post = Post.new(post_params)
 
     respond_to do |format|
-      if @post.save
+      begin
+        PostCreateService.new.process post
         format.html { redirect_to admin_post_path(@post), notice: 'Post was successfully created.' }
         format.json { render action: 'show', status: :created, location: @post }
-      else
+
+      rescue PostCreateService::PostCreateError
         format.html { render action: 'new' }
         format.json { render json: @post.errors, status: :unprocessable_entity }
       end
