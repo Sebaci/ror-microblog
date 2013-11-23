@@ -26,11 +26,11 @@ class Admin::PostsController < AdminController
   # POST /posts
   # POST /posts.json
   def create
-    post = Post.new(post_params)
+    @post = Post.new(post_params)
 
     respond_to do |format|
       begin
-        PostCreateService.new.process post
+        PostCreateService.new.process @post
         format.html { redirect_to admin_post_path(@post), notice: 'Post was successfully created.' }
         format.json { render action: 'show', status: :created, location: @post }
 

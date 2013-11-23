@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e24f3634-6111-4c08-81f5-62858589c928" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/services/create_post.rb" afterPath="$PROJECT_DIR$/app/services/post_create_service.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/admin/posts/_posts.erb" afterPath="$PROJECT_DIR$/app/views/admin/posts/_posts.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/posts_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/posts_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/admin/posts_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/admin/posts_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/admin/posts/show.html.erb" afterPath="$PROJECT_DIR$/app/views/admin/posts/show.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Microblog.iws" />
@@ -64,28 +60,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="posts_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/posts_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="19" selection-start="542" selection-end="542" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="posts_controller.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="posts_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/admin/posts_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="13" selection-start="774" selection-end="774" vertical-scroll-proportion="0.0">
+            <state line="40" column="30" selection-start="954" selection-end="954" vertical-scroll-proportion="0.7480315">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="post_create_service.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="post_create_service.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/services/post_create_service.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="7" selection-start="70" selection-end="70" vertical-scroll-proportion="0.07874016">
+            <state line="4" column="16" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -1031,23 +1018,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/services/post_create_service.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="16" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/posts_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="19" selection-start="542" selection-end="542" vertical-scroll-proportion="0.0">
+        <state line="31" column="19" selection-start="542" selection-end="542" vertical-scroll-proportion="0.37007874">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/admin/posts_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="13" selection-start="774" selection-end="774" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/services/post_create_service.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="7" selection-start="70" selection-end="70" vertical-scroll-proportion="0.07874016">
+        <state line="40" column="30" selection-start="954" selection-end="954" vertical-scroll-proportion="0.7480315">
           <folding />
         </state>
       </provider>
